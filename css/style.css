@@ -61,6 +61,26 @@ article {
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article > h1{
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    margin: 0 20px;
+    border: #844c95 2px solid;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease 0.3s;
+}
+
+article > h1:hover {
+    background-color: #844c95;
+    color: white;
 }
 
 article > .text > ul {
@@ -73,7 +93,6 @@ article > img {
     max-width: 100px;
     height: auto;
     border-radius: 8px;
-    margin-right: 20px;
     object-fit: contain;
 }
 
